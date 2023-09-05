@@ -1,0 +1,29 @@
+body {
+    background-color: #1F2937;
+}
+
+.header {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.body {
+    display: flex;
+}
