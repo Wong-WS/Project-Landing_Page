@@ -14,7 +14,8 @@ body {
     font-size: 24px;
     display: flex;
     justify-content: space-between;
-    margin: 16px 80px;
+    width: 1100px;
+    margin: 30px auto;
 }
 
 a {
@@ -35,8 +36,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1350px;
-    margin: 6rem auto -6rem;
+    width: 1100px;
+    margin: 100px auto;
 }
 
 .hero-main {
@@ -64,4 +65,135 @@ button {
     border: 1px solid #3882F6;
     color: white;
     margin-top: 20px;
+    font-weight: bold;
+}
+
+.rounded-corners {
+    border-radius: 10px;
+}
+
+.section-2 {
+    background-color: white;
+    height: 500px;
+}
+
+.section-2-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.section-2-cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-2-img {
+    border-radius: 8px;
+    border: 4px solid rgba(48, 158, 255, 0.686); 
+    width: 170px;
+    height: 170px; 
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 170px;
+    height: 30px;
+    color: rgba(44, 37, 37, 0.849);
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    width: auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 30px;
+}
+
+.section-4 {
+    width: auto;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4-body {
+    width: 800px;
+    height: 150px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 8px;
+}
+
+.section-4-sign-up {
+    background: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.section-4-main {
+    font-size: 18px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.section-4-sub {
+    color: rgba(255, 255, 255, 0.779);
+    font-size: 18px;
+}
+
+.copyright {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-text {
+    color: #F9FAF8;
+    width: auto;
 }
